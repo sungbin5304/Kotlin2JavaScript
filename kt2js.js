@@ -7,7 +7,7 @@ const scriptName = "kt2js";
  * all rights reserved.
  */
  
-String.prototype.convert = function() {
+String.prototype.convert = function(argu) {
     return eval(("\"" + this.match(/\$\{([^}]*)\}|\$([^\W]*)|\}?([^$]*)/gim).map(e => {
         if (typeof e !== "string") return "";
         if (e.startsWith("$") && e.endsWith("}")) {
