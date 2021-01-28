@@ -2,7 +2,7 @@
 
 -----
 
---- deprecated (do not use this)
+--- deprecated
 
 # Preview
 ![preview](https://raw.githubusercontent.com/sungbin5304/Kotlin2JavaScript/master/kt2js_preview.png)
